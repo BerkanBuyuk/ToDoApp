@@ -8,19 +8,12 @@ import {
   TextInput,
   TouchableOpacity,
   View,
-  ToastAndroid,
 } from 'react-native';
 import Task from './components/Task';
 import { useState } from 'react';
 
 
 export default function App() {
-
-
-
-  const addToast = () => {
-    ToastAndroid.show("Added", ToastAndroid.SHORT);
-  };
 
   const [task, setTask] = useState();
   const [taskItems, setTaskItems] = useState([]);
