@@ -44,8 +44,7 @@ export default function App() {
                 )
               })
             }
-            {/*<Task Text={'Test 1'} />
-            <Task Text={'Test 2'} />*/}
+
           </View>
       </View>
       <KeyboardAvoidingView
